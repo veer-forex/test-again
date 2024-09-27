@@ -1,0 +1,462 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+	text-decoration: none;
+	list-style: none;
+
+}
+header{
+	width: 100%;
+	box-shadow: 0px 0px 10px 2px #ccc;
+	padding-left:20px 0px;
+	position:sticky;
+	top:0px;
+	background:white;
+	z-index: 99;
+}
+.header-mid{
+	max-width:1170px;
+	display:flex;
+	margin:auto;
+	align-items:center;
+	justify-content:space-between;
+	
+}
+.header-left{
+	flex-basis:15%;
+	padding:20px 0px;
+	padding-left:30px;
+	
+}
+.header-left img{
+	width:100%;
+	
+
+}
+.header-right{
+	
+	
+}
+.header-right nav ul{
+	display:flex;
+	gap:30px;
+	color:black;
+	font-weight:500;
+	font-size:18px;
+}
+.inner-section{
+	width:100%;
+	display:flex;
+}
+.inner-section-left{
+	flex-basis:65%;
+	border:1px solid red;
+	background:url("images/left-go-tour.jpg");
+	height:470px;
+	margin:20px 20px;
+	border-radius:30px;
+	position:relative;
+}
+.inner-section-left input{
+	width:600px;
+	margin:auto;
+	position:absolute;
+	top:200px;
+	left:100px;
+	font-size:18px;
+	font-weight:600;
+	line-height:40px;
+	text-color:black;
+	border:2px solid #5C1C4B;
+	border:none;
+}
+.inner-section-left button{
+	width:60px;
+	height:40px;
+	background: #5C1C4B;
+	position:absolute;
+	top:200px;
+	left:680px;
+	color:white;
+}
+.inner-section-left b{
+	color:white;
+	font-size:35px;
+	position:absolute;
+	left:100px;
+	top:163px;
+}
+.inner-section-right{
+	flex-basis:20%;
+	border:1px solid red;
+	height:470;
+	margin:20px 20px;
+	background:url("images/right-tour.jpg");
+	border-radius:30px;
+	position:relative;
+}
+.inner-section-right button p{
+	 width:150px;
+     background:#F7F5ED;
+     position:absolute;
+     font-size:16px;
+     font-weight:400px;
+     border-radius:10px;
+     word-spacing:3px;
+     border:1px solid black;
+     line-height:30px;
+     top:300px;
+     left:50px;
+}
+.inner-section-right b{
+	width:300px;
+	color:white;
+	font-size:30px;
+	position:absolute;
+	top:340px;
+	left:45px;
+}
+ .right-about{
+	width:300px;
+	color:white;
+	position:absolute;
+	font-weight:500;
+	color:white;
+	top:420px;
+	left:45px;
+}
+
+.inner-section-right::before{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.4);
+	top: 0;
+	left: 0;
+	border-radius:30px;
+}
+.second-inner-section{
+	width:1170px;
+	margin:auto;
+	display:flex;
+	justify-content: space-between;
+}
+.second-inner-section-part1{
+	flex-basis:25%;
+	padding:30px 40px;
+	position:relative;
+	border:1px solid #ccc;
+	border-radius:20px;
+}
+.second-inner-section-part1 b{
+	position:absolute;
+	top:20px;
+	left:120px;
+	font-size:20px;
+
+}
+.second-inner-section-part1 p{
+	position:absolute;
+	top:60px;
+	left:120px;
+	line-height:20px;
+}
+.third-section{
+	width:100%;
+	margin:auto;
+}
+.third-section h4{
+	width:1170px;
+	margin:auto;
+	font-size:30px;
+	padding-top:50px;
+	padding-bottom:30px;
+}
+.third-section-inner{
+	width:1170px;
+	margin:auto;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+/*	border:1px solid red;*/
+	gap:20px;
+	flex-wrap: wrap;
+
+}
+.third-section-left{
+	flex-basis:30%;
+/*	border:1px solid red;*/
+	height:450px;
+	background:url("images/rajasthan.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	border-radius:20px;
+
+}
+.third-section-right{
+/*	flex-basis:70%;*/
+	border:1px solid red;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	border:1px solid red;
+	flex-wrap:wrap;
+	gap:20px;
+
+}
+.third-section-right-items{
+	flex-basis:31.5%;
+	height:216px;
+	background:url("images/kerala.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	border-radius:20px;
+	
+}
+.third-section-right-items1{
+	flex-basis:31.5%;
+	height:216px;
+	background:url("images/sikkim.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	border-radius:20px;
+	
+}
+.third-section-right-items2{
+	flex-basis:31.5%;
+	height:216px;
+	background:url("images/varanasi.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	border-radius:20px;	
+}
+.third-section-right-items3{
+	flex-basis:31.5%;
+	height:216px;
+	background:url("images/khajuraho.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	border-radius:20px;
+}
+.third-section-right-items4{
+	flex-basis:31.5%;
+	height:216px;
+	background:url("images/kashmir.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	border-radius:20px;
+}
+.third-section-right-items5{
+	flex-basis:31.5%;
+	height:216px;
+	background:url("images/karnataka.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	border-radius:20px;
+}
+.third-section-right-items6{
+	flex-basis:31.5%;
+	height:216px;
+	background:url("images/kerala.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	border-radius:20px;
+}
+.internationl{
+	width:100%;
+	position:relative;
+}
+.internationl h4{
+	width:1170;
+	font-size:30px;
+	padding-top:50px;
+	padding-left:80px;
+	padding-bottom:20px;
+}
+.forth-section{
+	width:100%;
+	margin:auto;
+}
+.forth-section-items{
+	width:1170px;
+	margin:auto;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	border:1px solid red;
+	gap:20px;
+	flex-wrap:wrap;
+
+}
+.forth-items1{
+	flex-basis:31.5%;
+	height:216px;
+	background:url("images/india.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	border-radius:20px;
+}
+.forth-items2{
+	flex-basis:31.5%;
+	height:216px;
+	background:url("images/nepal.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	border-radius:20px;
+}
+.forth-items3{
+	flex-basis:31.5%;
+	height:216px;
+	background:url("images/bhutan.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	border-radius:20px;
+}
+.forth-items4{
+	flex-basis:31.5%;
+	height:216px;
+	background:url("images/maldives.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	border-radius:20px;
+}
+.forth-items5{
+	flex-basis:31.5%;
+	height:216px;
+	background:url("images/sri-lanka.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	border-radius:20px;
+}
+.forth-items6{
+	flex-basis:31.5%;
+	height:216px;
+	background:url("images/thailand.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	border-radius:20px;
+}
+.Browse{
+	width:100%;
+	margin:auto;
+}
+.Browse h4{
+	width:1170px;
+	margin:auto;
+	font-size:30px;
+	padding-top:50px;
+	padding-bottom:30px;
+}
+.Browse-section {
+	width:100%;
+	margin:auto;
+}
+.Browse-section-items{
+	width:1170px;
+	margin:auto;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	border:1px solid red;
+	gap:20px;
+	flex-wrap:wrap;
+
+}
+.Browse-items1{
+	flex-basis:31.5%;
+	height:216px;
+	background:url("images/wildlife.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	border-radius:20px;
+	
+}
+.Browse-items2{
+	flex-basis:31.5%;
+	height:216px;
+	background:url("images/depth.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	border-radius:20px;
+	
+}
+.Browse-items3{
+	flex-basis:31.5%;
+	height:216px;
+	background:url("images/religious.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	border-radius:20px;
+	
+}
+.Browse-items4{
+	flex-basis:31.5%;
+	height:216px;
+	background:url("images/romantic-.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	border-radius:20px;
+	
+}
+.Browse-items5{
+	flex-basis:31.5%;
+	height:216px;
+	background:url("images/fairs-.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	border-radius:20px;
+	
+}
+.Browse-items6{
+	flex-basis:31.5%;
+	height:216px;
+	background:url("images/adventure.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	border-radius:20px;
+	
+}
+.picks{
+	width:100%;
+	height:500px;
+	background:#EFEEEE;
+	margin-top:100px;
+}
+.picks h4{
+	font-size:35px;
+	padding-top:50px;
+	margin-left:180px;
+}
+
+/*.third-section-inner{
+	display: grid;
+	grid-template-columns: 1f 4fr;
+}*/
+
+.mains{
+	width: 1000px;
+	margin: auto;
+	display: flex;
+	border: 2px solid darkred;
+}
+.mains .box{
+	width: 23%;
+	height: 400px;
+	background: #ccc;
+	margin: 0.5%;
+}
+.mains .box .top{
+	width: 100%;
+	height: 200px;
+	background: red;
+	margin-bottom: 5px;
+}
+
+.mains .box .bottom{
+	width: 100%;
+	height: 200px;
+	background: green;
+	margin-top: 5px;
+}
